@@ -12,12 +12,11 @@ int main ()
 	float distancia;
 	
 	printf("Informe as coordenadas do ponto A");
-	scanf("%i %i"),&x1, &y1;
+	scanf("%i %i",&x1, &y1);
 	printf("Informe as coordenadas do ponto B");
-	scanf("%i %i"), &x2,&y2;
-	
+	scanf("%i %i", &x2,&y2);
+	// calcula a distancia e mostra o resultado
 	distancia = calculaDistancia(x1,y1,x2,y2);
-	
 	printf("Distancia: %f", distancia);
 
 }
